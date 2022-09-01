@@ -76,7 +76,7 @@ Under `bsp/simulator` directory , you can use the following command to generate 
 
 ```c
 scons --target=vs2012
-Scons --target=vs2005
+scons --target=vs2005
 ```
 
 If you provide template files for other IDE projects in the BSP directory, you can also use this command to generate corresponding new projects, such as ua, vs, cb, cdk.
